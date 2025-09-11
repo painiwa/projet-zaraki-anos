@@ -39,11 +39,11 @@ module.exports = {
 
  if (args[0] === "add") {
  form.fb_api_req_friendly_name = "FriendingCometFriendRequestConfirmMutation";
- form.doc_id = "3147613905362928";
+ form.doc_id = "1835310393756929";
  }
  else if (args[0] === "del") {
  form.fb_api_req_friendly_name = "FriendingCometFriendRequestDeleteMutation";
- form.doc_id = "4108254489275063";
+ form.doc_id = "1835310393756929";
  }
  else {
  return api.sendMessage("⚠️ 𝒰𝓈𝒶𝑔𝑒: add | del <𝓃𝓊𝓂𝒷𝑒𝓇 / all>", event.threadID, event.messageID);
